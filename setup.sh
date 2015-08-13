@@ -1,6 +1,6 @@
 #/bin/sh
 
-SCAPY=http://bb.secdev.org/scapy-com/get/cc06add6dbd9.zip
+SCAPY=https://bitbucket.org/secdev/scapy-com/get/cc06add6dbd9.zip
 TMPFILE=`mktemp`
 wget $SCAPY -O $TMPFILE
 unzip $TMPFILE
